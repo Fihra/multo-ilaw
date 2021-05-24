@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour
 {
@@ -13,10 +14,13 @@ public class Player : MonoBehaviour
     public float minHeight;
 
     public int health;
+    public Text healthDisplay;
 
     // Update is called once per frame
     void Update()
     {
+        healthDisplay.text = "HP: " + health.ToString();
+
         if(health <= 0)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

@@ -16,6 +16,8 @@ public class Player : MonoBehaviour
     public int health;
     public Text healthDisplay;
 
+    public GameObject gameOver;
+
     // Update is called once per frame
     void Update()
     {
@@ -23,7 +25,8 @@ public class Player : MonoBehaviour
 
         if(health <= 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            gameOver.SetActive(true);
+            Destroy(gameObject);
         }
 
         transform.position = Vector2.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);

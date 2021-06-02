@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     public Text healthDisplay;
 
     public GameObject gameOver;
+    public GameObject effect;
 
     // Update is called once per frame
     void Update()
@@ -25,6 +26,7 @@ public class Player : MonoBehaviour
 
         if(health <= 0)
         {
+            Instantiate(effect, transform.position, Quaternion.identity);
             gameOver.SetActive(true);
             Destroy(gameObject);
         }

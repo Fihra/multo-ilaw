@@ -153,7 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d21252b14f6a9144b80fed2e37ac4cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
+  speed: 1
   endX: -16
   startX: 16
 --- !u!212 &211995255
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d21252b14f6a9144b80fed2e37ac4cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.5
+  speed: 1
   endX: -16
   startX: 16
 --- !u!212 &219420758
@@ -5356,7 +5356,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d21252b14f6a9144b80fed2e37ac4cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 3
   endX: -21
   startX: 21
 --- !u!212 &511697467
@@ -5537,7 +5537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d21252b14f6a9144b80fed2e37ac4cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 2
   endX: -17
   startX: 17
 --- !u!212 &658466215
@@ -5685,7 +5685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d21252b14f6a9144b80fed2e37ac4cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 2
   endX: -17
   startX: 17
 --- !u!212 &793696610
@@ -5783,7 +5783,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d21252b14f6a9144b80fed2e37ac4cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 3
   endX: -21
   startX: 21
 --- !u!212 &1064744995
@@ -11284,25 +11284,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2744500528839699423, guid: cbd03026bc4cbb14e9bd2a256f1c1d29, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 20
-      objectReference: {fileID: 0}
     - target: {fileID: 3332988040408670675, guid: cbd03026bc4cbb14e9bd2a256f1c1d29, type: 3}
       propertyPath: m_Name
       value: Obstacle Patterns
-      objectReference: {fileID: 0}
-    - target: {fileID: 3332988040408670675, guid: cbd03026bc4cbb14e9bd2a256f1c1d29, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3370521653813999243, guid: cbd03026bc4cbb14e9bd2a256f1c1d29, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 7937212882332318321, guid: cbd03026bc4cbb14e9bd2a256f1c1d29, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 8093436654709159778, guid: cbd03026bc4cbb14e9bd2a256f1c1d29, type: 3}
       propertyPath: m_LocalPosition.x

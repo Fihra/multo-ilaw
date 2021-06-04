@@ -18,6 +18,8 @@ public class Player : MonoBehaviour
 
     public GameObject gameOver;
     public GameObject effect;
+    public GameObject moveUpEffect;
+    public GameObject moveDownEffect;
 
     // Update is called once per frame
     void Update()
@@ -35,10 +37,12 @@ public class Player : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.W) && transform.position.y < maxHeight)
         {
+            Instantiate(moveUpEffect, transform.position, Quaternion.identity);
             targetPos = new Vector2(transform.position.x, transform.position.y + Yincrement);
         }
         else if(Input.GetKeyDown(KeyCode.S) && transform.position.y > minHeight)
         {
+            Instantiate(moveDownEffect, transform.position, Quaternion.identity);
             targetPos = new Vector2(transform.position.x, transform.position.y - Yincrement);
         }
     }

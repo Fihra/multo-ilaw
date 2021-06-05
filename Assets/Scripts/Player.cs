@@ -35,12 +35,12 @@ public class Player : MonoBehaviour
 
         transform.position = Vector2.MoveTowards(transform.position, targetPos, speed * Time.deltaTime);
 
-        if (Input.GetKeyDown(KeyCode.W) && transform.position.y < maxHeight)
+        if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && transform.position.y < maxHeight)
         {
             Instantiate(moveUpEffect, transform.position, Quaternion.identity);
             targetPos = new Vector2(transform.position.x, transform.position.y + Yincrement);
         }
-        else if(Input.GetKeyDown(KeyCode.S) && transform.position.y > minHeight)
+        else if((Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.DownArrow)) && transform.position.y > minHeight)
         {
             Instantiate(moveDownEffect, transform.position, Quaternion.identity);
             targetPos = new Vector2(transform.position.x, transform.position.y - Yincrement);

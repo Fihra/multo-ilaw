@@ -7,6 +7,12 @@ public class ScoreManager : MonoBehaviour
 {
     public int score;
     public Text scoreDisplay;
+    public Player playerHealth;
+
+    //private void Start()
+    //{
+    //    playerHealth = GetComponent<Player>();
+    //}
 
     private void Update()
     {
@@ -15,9 +21,15 @@ public class ScoreManager : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log(playerHealth);
+        if(playerHealth.health <= 0)
+        {
+            return;
+        }
+
         if (other.CompareTag("Enemy")){
             score++;
-            Debug.Log(score);
+            //Debug.Log(score);
         }
     }
 }

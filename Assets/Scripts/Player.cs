@@ -14,7 +14,12 @@ public class Player : MonoBehaviour
     public float minHeight;
 
     public int health;
-    public Text healthDisplay;
+    //public Text healthDisplay;
+    public int numOfLights;
+
+    public Image[] lights;
+    public Sprite fullLight;
+    public Sprite emptyLight;
 
     public GameObject gameOver;
     public GameObject effect;
@@ -24,7 +29,33 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        healthDisplay.text = "HP: " + health.ToString();
+        if(health > numOfLights)
+        {
+            health = numOfLights;
+        }
+
+        //healthDisplay.text = "HP: " + health.ToString();
+        for(int i = 0; i < lights.Length; i++)
+        {
+            if(i < health)
+            {
+                lights[i].sprite = fullLight;
+            }
+            else
+            {
+                lights[i].sprite = emptyLight;
+            }
+
+
+            if(i < numOfLights)
+            {
+                lights[i].enabled = true;
+            }
+            else
+            {
+                lights[i].enabled = false;
+            }
+        }
 
         if(health <= 0)
         {

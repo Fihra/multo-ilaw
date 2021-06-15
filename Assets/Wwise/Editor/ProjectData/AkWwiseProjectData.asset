@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 938614b490f7804a9d06ebbd222a796f
     GuidInternal: 
-    m_lastTime: -8585778815907356577
+    m_lastTime: -8585778183701774524
     List:
     - name: Main
       guid: c12e47c8350662429505babece947157
@@ -146,8 +146,48 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\SFX
     guid: 1741014dabb58f47932262ea3f479deb
     GuidInternal: 
-    m_lastTime: -8585778836498904472
-    List: []
+    m_lastTime: -8585778183701844603
+    List:
+    - name: Explode
+      guid: 4fc7c47d1d777c49a47fe33864228c67
+      id: 948631664
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4d21e2a95cc0a348a661d51aa5849829
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 1741014dabb58f47932262ea3f479deb
+      - ElementName: Explode
+        ObjectType: 3
+        guid: 4fc7c47d1d777c49a47fe33864228c67
+      Path: Events\Default Work Unit\SFX\Explode
+      maxAttenuation: 0
+      maxDuration: 1.2
+      minDuration: 1.2
+    - name: Move
+      guid: 344996f12e77c84e9d9fb635e91628c0
+      id: 3011204530
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4d21e2a95cc0a348a661d51aa5849829
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 1741014dabb58f47932262ea3f479deb
+      - ElementName: Move
+        ObjectType: 3
+        guid: 344996f12e77c84e9d9fb635e91628c0
+      Path: Events\Default Work Unit\SFX\Move
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -204,7 +244,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585778871695800587
     List: []
-  ExpandedFileSystemItemIds: 0200000003000000040000000b0000000c0000000d0000000e000000
+  ExpandedFileSystemItemIds: 020000000300000004000000060000000b0000000c0000000d0000000e000000
   ExpandedWaapiItemIds: 020000000300000004000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

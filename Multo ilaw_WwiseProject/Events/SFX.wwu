@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{4D014117-B5AB-478F-9322-62EA3F479DEB}" SchemaVersion="103" RootDocumentID="{A9E2214D-C05C-48A3-A661-D51AA5849829}" ParentDocumentID="{A9E2214D-C05C-48A3-A661-D51AA5849829}">
 	<Events>
-		<WorkUnit Name="SFX" ID="{4D014117-B5AB-478F-9322-62EA3F479DEB}" OwnerID="{A9E2214D-C05C-48A3-A661-D51AA5849829}" PersistMode="Nested"/>
+		<WorkUnit Name="SFX" ID="{4D014117-B5AB-478F-9322-62EA3F479DEB}" OwnerID="{A9E2214D-C05C-48A3-A661-D51AA5849829}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Move" ID="{F1964934-772E-4EC8-9D9F-B635E91628C0}">
+					<ChildrenList>
+						<Action Name="" ID="{482E884A-01F8-44A7-9B3C-3C51E2350C9C}" ShortID="299890844">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Move" ID="{1C652FDD-B6C9-405A-9CC5-EB098AFB1929}" WorkUnitID="{51FEC60C-E518-4A0A-9F19-541E06A8E8ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Explode" ID="{7DC4C74F-771D-497C-A47F-E33864228C67}">
+					<ChildrenList>
+						<Action Name="" ID="{BEAD5E56-1670-4AC8-93FF-7D7F8782D7BE}" ShortID="726962031">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Explode Start" ID="{6C8AEC19-FDF4-4966-925A-D535640543A9}" WorkUnitID="{51FEC60C-E518-4A0A-9F19-541E06A8E8ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

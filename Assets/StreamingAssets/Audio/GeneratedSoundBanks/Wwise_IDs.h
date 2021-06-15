@@ -13,6 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID EXPLODE = 948631664U;
+        static const AkUniqueID MOVE = 3011204530U;
         static const AkUniqueID TITLE_THEME = 2521525023U;
     } // namespace EVENTS
 

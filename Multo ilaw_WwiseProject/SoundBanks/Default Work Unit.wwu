@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{C8472EC1-0635-4262-9505-BABECE947157}">
 					<ObjectInclusionList>
+						<ObjectRef Name="SFX" ID="{B034FD15-39E0-46A5-9AD4-40EB8875676F}" WorkUnitID="{51FEC60C-E518-4A0A-9F19-541E06A8E8ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music" ID="{38A2C71C-A1C1-4BB4-8A79-051C44AB2829}" WorkUnitID="{38A2C71C-A1C1-4BB4-8A79-051C44AB2829}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

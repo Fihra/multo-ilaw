@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2521525023	Title_Theme			\Default Work Unit\Music\Title_Theme	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	177640537	Main_Theme_Test	D:\Fabian_Files\Unity_Files\Multo ilaw\Multo ilaw_WwiseProject\.cache\Mac\SFX\Main_Theme_Test_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Title Theme\Main_Theme_Test\Main_Theme_Test		207966
+

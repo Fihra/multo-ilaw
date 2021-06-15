@@ -21,7 +21,7 @@ public class ScoreManager : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log(playerHealth);
+        //Debug.Log(playerHealth);
         if(playerHealth.health <= 0)
         {
             return;

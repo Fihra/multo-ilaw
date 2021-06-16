@@ -1,7 +1,15 @@
 Event	ID	Name			Wwise Object Path	Notes
 	948631664	Explode			\Default Work Unit\SFX\Explode	
-	2521525023	Title_Theme			\Default Work Unit\Music\Title_Theme	
+	1270025692	TitleToForestTheme			\Default Work Unit\Music\TitleToForestTheme	
 	3011204530	Move			\Default Work Unit\SFX\Move	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2383225044	SceneMusic			\Default Work Unit\SceneMusic	
+
+State	ID	Name	State Group			Notes
+	748895195	None	SceneMusic			
+	1223337640	TitleTheme	SceneMusic			
+	4083970009	ForestTheme	SceneMusic			
 
 Modulator Envelope	ID	Name			Wwise Object Path	Notes
 	237594552	Modulator Envelope (Custom)				
@@ -13,5 +21,6 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	917602305	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Explosion\Wwise Synth One	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	177640537	Main_Theme_Test	D:\Fabian_Files\Unity_Files\Multo ilaw\Multo ilaw_WwiseProject\.cache\Mac\SFX\Main_Theme_Test_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\Title Theme\Main_Theme_Test\Main_Theme_Test		207966
+	302744117	Forest_Theme_mastered	D:\Fabian_Files\Unity_Files\Multo-ilaw\Multo ilaw_WwiseProject\.cache\Mac\SFX\Forest_Theme_mastered_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\Forest_Theme\Forest_Theme_mastered\Forest_Theme_mastered		1399263
+	480581565	Title_Theme_mastered	D:\Fabian_Files\Unity_Files\Multo-ilaw\Multo ilaw_WwiseProject\.cache\Mac\SFX\Title_Theme_mastered_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\Title_Theme\Title_Theme_mastered\Title_Theme_mastered		226790
 

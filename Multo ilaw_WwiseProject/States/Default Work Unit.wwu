@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{41B8F44E-8B38-483E-BB2A-A14C7F2F81FD}" SchemaVersion="103">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{41B8F44E-8B38-483E-BB2A-A14C7F2F81FD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{41B8F44E-8B38-483E-BB2A-A14C7F2F81FD}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="SceneMusic" ID="{68EFD673-C6A2-4230-9C7D-2C16CD83D0AC}">
+					<ChildrenList>
+						<State Name="None" ID="{B4E55B6E-03BD-4BC9-A46C-906B0BC5D877}"/>
+						<State Name="TitleTheme" ID="{A6BC4227-5A54-43DF-9DFB-2D51CB5056CC}"/>
+						<State Name="ForestTheme" ID="{9012D273-84CD-4619-8095-3F26903FC18F}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="TitleTheme" ID="{A6BC4227-5A54-43DF-9DFB-2D51CB5056CC}"/>
+							<EndState Name="ForestTheme" ID="{9012D273-84CD-4619-8095-3F26903FC18F}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="ForestTheme" ID="{9012D273-84CD-4619-8095-3F26903FC18F}"/>
+							<EndState Name="TitleTheme" ID="{A6BC4227-5A54-43DF-9DFB-2D51CB5056CC}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

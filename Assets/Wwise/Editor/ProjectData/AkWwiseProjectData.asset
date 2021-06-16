@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 75cdb74b0e00664984cde0cad96c84a6
     GuidInternal: 
-    m_lastTime: -8585778871695900162
+    m_lastTime: -8585777317063401317
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: ec6cfeb2b0bef84cb4cadd44ea77e8e8
     GuidInternal: 
-    m_lastTime: -8585778871696827832
+    m_lastTime: -8585777317064508306
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 938614b490f7804a9d06ebbd222a796f
     GuidInternal: 
-    m_lastTime: -8585778183701774524
+    m_lastTime: -8585777317063501079
     List:
     - name: Main
       guid: c12e47c8350662429505babece947157
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 4d21e2a95cc0a348a661d51aa5849829
     GuidInternal: 
-    m_lastTime: -8585778836247010652
+    m_lastTime: -8585777317064727779
     List: []
   - PhysicalPath: Events\Music.wwu
     PathAndIcons:
@@ -110,11 +110,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Music
     guid: 1cc7a238c1a1b44b8a79051c44ab2829
     GuidInternal: 
-    m_lastTime: -8585778836246920831
+    m_lastTime: -8585777303514608142
     List:
-    - name: Title_Theme
-      guid: a7adf0ccab0e5a428981cb982c76df70
-      id: 2521525023
+    - name: TitleToForestTheme
+      guid: e04ae7dad029f24a91d7da2f7e142638
+      id: 1270025692
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -125,13 +125,13 @@ MonoBehaviour:
       - ElementName: Music
         ObjectType: 12
         guid: 1cc7a238c1a1b44b8a79051c44ab2829
-      - ElementName: Title_Theme
+      - ElementName: TitleToForestTheme
         ObjectType: 3
-        guid: a7adf0ccab0e5a428981cb982c76df70
-      Path: Events\Default Work Unit\Music\Title_Theme
+        guid: e04ae7dad029f24a91d7da2f7e142638
+      Path: Events\Default Work Unit\Music\TitleToForestTheme
       maxAttenuation: 0
-      maxDuration: 11.896191
-      minDuration: 11.896191
+      maxDuration: -1
+      minDuration: -1
   - PhysicalPath: Events\SFX.wwu
     PathAndIcons:
     - ElementName: Events
@@ -146,7 +146,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\SFX
     guid: 1741014dabb58f47932262ea3f479deb
     GuidInternal: 
-    m_lastTime: -8585778183701844603
+    m_lastTime: -8585777317064707819
     List:
     - name: Explode
       guid: 4fc7c47d1d777c49a47fe33864228c67
@@ -200,7 +200,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: e668fbdc9e9443429f53efb57f9cbb71
     GuidInternal: 
-    m_lastTime: -8585778871696418922
+    m_lastTime: -8585777317064697864
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -214,8 +214,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 4ef4b841388b3e48bb2aa14c7f2f81fd
     GuidInternal: 
-    m_lastTime: -8585778871696368854
-    List: []
+    m_lastTime: -8585777304510116084
+    List:
+    - name: SceneMusic
+      guid: 73d6ef68a2c630429c7d2c16cd83d0ac
+      id: 2383225044
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4ef4b841388b3e48bb2aa14c7f2f81fd
+      - ElementName: SceneMusic
+        ObjectType: 9
+        guid: 73d6ef68a2c630429c7d2c16cd83d0ac
+      Path: States\Default Work Unit\SceneMusic
+      values:
+      - name: ForestTheme
+        guid: 73d21290cd84194680953f26903fc18f
+        id: 4083970009
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4ef4b841388b3e48bb2aa14c7f2f81fd
+        - ElementName: SceneMusic
+          ObjectType: 9
+          guid: 73d6ef68a2c630429c7d2c16cd83d0ac
+        - ElementName: ForestTheme
+          ObjectType: 8
+          guid: 73d21290cd84194680953f26903fc18f
+      - name: None
+        guid: 6e5be5b4bd03c94ba46c906b0bc5d877
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4ef4b841388b3e48bb2aa14c7f2f81fd
+        - ElementName: SceneMusic
+          ObjectType: 9
+          guid: 73d6ef68a2c630429c7d2c16cd83d0ac
+        - ElementName: None
+          ObjectType: 8
+          guid: 6e5be5b4bd03c94ba46c906b0bc5d877
+      - name: TitleTheme
+        guid: 2742bca6545adf439dfb2d51cb5056cc
+        id: 1223337640
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4ef4b841388b3e48bb2aa14c7f2f81fd
+        - ElementName: SceneMusic
+          ObjectType: 9
+          guid: 73d6ef68a2c630429c7d2c16cd83d0ac
+        - ElementName: TitleTheme
+          ObjectType: 8
+          guid: 2742bca6545adf439dfb2d51cb5056cc
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -228,7 +294,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: a8296cba170dfe4a8f63836a36474348
     GuidInternal: 
-    m_lastTime: -8585778871696638308
+    m_lastTime: -8585777317063441233
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -242,9 +308,9 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 20a77cafdc65694794163ecb92caf1e9
     GuidInternal: 
-    m_lastTime: -8585778871695800587
+    m_lastTime: -8585777317063431266
     List: []
-  ExpandedFileSystemItemIds: 020000000300000004000000060000000b0000000c0000000d0000000e000000
+  ExpandedFileSystemItemIds: 02000000030000000400000005000000060000000b0000000c0000000d0000000e000000
   ExpandedWaapiItemIds: 020000000300000004000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

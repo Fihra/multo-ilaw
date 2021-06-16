@@ -26,7 +26,9 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="wS5HyDUGYkKVBbq+zpRxVw=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
 				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups" Type="string" Value="J7phJf1OF0usvRX0YVWALwH+uJ7/////wlWB5QOzjE+Q7Qlqj4uGWAH+uJ7/////"/>
-				<Property Name="Interactive Music\x64_{CECDC18F-CC0F-46E6-8DF5-512847605331} - SegmentEditorZoomInfo" Type="string" Value="PgIDDPy/BEAAAAAAAADwP3RF6V6byVJAAAAAAAAA8D8AAAAAAAAAAAAAAAAAADZA"/>
+				<Property Name="Interactive Music\x64_{1BF6AC2E-8979-40A6-BB69-676C3FC6A749} - SegmentEditorZoomInfo" Type="string" Value="KizY4xEmAUAAAAAAAADwPwzPT6GLkVBAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{587BF123-860E-4D8E-9DFC-6FD7B163C26F} - SegmentEditorZoomInfo" Type="string" Value="g6E5mUBhEkAAAAAAAADwP9FrHg1PzCRAAAAAAAAA8D8AAAAAAO6nQAAAAAAAAAAA"/>
+				<Property Name="Interactive Music\x64_{CECDC18F-CC0F-46E6-8DF5-512847605331} - SegmentEditorZoomInfo" Type="string" Value="PgIDDPy/BEAAAAAAAADwP3RF6V6byVJAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAA"/>
 				<Property Name="LoudnessMeterView\LastObject2" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
@@ -37,7 +39,11 @@
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
+				<Property Name="Music Transition List\{240754D7-4E03-45D4-838A-BE532568D907}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{3A416D22-C8BA-4171-86CB-C00BD3A4D9BD}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{55FAD298-0351-4650-B3AC-C0D2ACBC2E0D}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{BBF71A40-55D4-4155-89E4-B1F6E679509E}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Music Transition List\{C2AEA4E7-7A75-486D-9795-6F1E6E48F1E8}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="PluginUserAcknowledge\iZotope Hybrid Reverb" Type="bool" Value="True"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>

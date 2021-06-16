@@ -1,3 +1,11 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2383225044	SceneMusic			\Default Work Unit\SceneMusic	
+
+State	ID	Name	State Group			Notes
+	748895195	None	SceneMusic			
+	1223337640	TitleTheme	SceneMusic			
+	4083970009	ForestTheme	SceneMusic			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 

@@ -1,37 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>D:\Fabian_Files\Unity_Files\Multo ilaw\Multo ilaw_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>D:\Fabian_Files\Unity_Files\Multo ilaw\Multo ilaw_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Fabian_Files\Unity_Files\Multo ilaw\Multo ilaw_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>D:\Fabian_Files\Unity_Files\Multo-ilaw\Multo ilaw_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Fabian_Files\Unity_Files\Multo-ilaw\Multo ilaw_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Fabian_Files\Unity_Files\Multo-ilaw\Multo ilaw_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Fabian_Files\Unity_Files\Multo ilaw\Multo ilaw_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Fabian_Files\Unity_Files\Multo-ilaw\Multo ilaw_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2332605076">
+		<SoundBank Id="1355168291" Language="SFX" Hash="1721608269">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2969386709">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3686594892">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
 				<Event Id="948631664" Name="Explode" ObjectPath="\Events\Default Work Unit\SFX\Explode" DurationType="OneShot" DurationMin="1.200000" DurationMax="1.200000"/>
 				<Event Id="3011204530" Name="Move" ObjectPath="\Events\Default Work Unit\SFX\Move" DurationType="Unknown"/>
-				<Event Id="2521525023" Name="Title_Theme" ObjectPath="\Events\Default Work Unit\Music\Title_Theme" DurationType="OneShot" DurationMin="11.896191" DurationMax="11.896191">
+				<Event Id="1270025692" Name="TitleToForestTheme" ObjectPath="\Events\Default Work Unit\Music\TitleToForestTheme" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="177640537" Language="SFX">
-							<ShortName>Main_Theme_Test.wav</ShortName>
-							<Path>SFX\Main_Theme_Test_9EDFC787.wem</Path>
+						<File Id="302744117" Language="SFX">
+							<ShortName>Forest_Theme_mastered.wav</ShortName>
+							<Path>SFX\Forest_Theme_mastered_9EDFC787.wem</Path>
+						</File>
+						<File Id="480581565" Language="SFX">
+							<ShortName>Title_Theme_mastered.wav</ShortName>
+							<Path>SFX\Title_Theme_mastered_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{A6BC4227-5A54-43DF-9DFB-2D51CB5056CC}">
+							<Media>
+								<File Id="480581565"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{9012D273-84CD-4619-8095-3F26903FC18F}">
+							<Media>
+								<File Id="302744117"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="2383225044" Name="SceneMusic" ObjectPath="\States\Default Work Unit\SceneMusic">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\SceneMusic\None"/>
+						<State Id="1223337640" Name="TitleTheme" ObjectPath="\States\Default Work Unit\SceneMusic\TitleTheme"/>
+						<State Id="4083970009" Name="ForestTheme" ObjectPath="\States\Default Work Unit\SceneMusic\ForestTheme"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

@@ -10,7 +10,7 @@
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
   <WwiseInstallationPathMac />
   <WwiseInstallationPathWindows>D:\Fabian_Files\Wwise 2021.1.2.7629</WwiseInstallationPathWindows>
-  <WwiseProjectPath>../Multo-ilaw_WwiseProject/Multo ilaw_WwiseProject.wproj</WwiseProjectPath>
+  <WwiseProjectPath>../Multo ilaw_WwiseProject/Multo ilaw_WwiseProject.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>
   <WaapiPort>8080</WaapiPort>
   <WaapiIP>127.0.0.1</WaapiIP>

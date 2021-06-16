@@ -3,12 +3,12 @@
 	<Events>
 		<WorkUnit Name="Music" ID="{38A2C71C-A1C1-4BB4-8A79-051C44AB2829}" OwnerID="{A9E2214D-C05C-48A3-A661-D51AA5849829}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="Title_Theme" ID="{CCF0ADA7-0EAB-425A-8981-CB982C76DF70}">
+				<Event Name="TitleToForestTheme" ID="{DAE74AE0-29D0-4AF2-91D7-DA2F7E142638}">
 					<ChildrenList>
-						<Action Name="" ID="{FDDE5F7B-D5EC-4F9D-B6B5-9F4ED044FDF8}" ShortID="642878700">
+						<Action Name="" ID="{1F091B3E-5B2A-45F6-8D5A-E28B49F38B0E}" ShortID="518799702">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Main_Theme_Test" ID="{CECDC18F-CC0F-46E6-8DF5-512847605331}" WorkUnitID="{A64872C4-304C-40EE-996B-B4B87A2F1F99}"/>
+									<ObjectRef Name="SceneMusic" ID="{C2AEA4E7-7A75-486D-9795-6F1E6E48F1E8}" WorkUnitID="{A64872C4-304C-40EE-996B-B4B87A2F1F99}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

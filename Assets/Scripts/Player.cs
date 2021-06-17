@@ -26,6 +26,13 @@ public class Player : MonoBehaviour
     public GameObject moveUpEffect;
     public GameObject moveDownEffect;
 
+    SpriteRenderer colorHolder;
+
+    private void Start()
+    {
+        colorHolder = GetComponent<SpriteRenderer>();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -75,6 +82,14 @@ public class Player : MonoBehaviour
         {
             Instantiate(moveDownEffect, transform.position, Quaternion.identity);
             targetPos = new Vector2(transform.position.x, transform.position.y - Yincrement);
+        }
+        else if(Input.GetKeyDown(KeyCode.Space))
+        {
+            colorHolder.color = new Color(1f, 1f, 1f, 0.5f);
+        }
+        else if(Input.GetKeyUp(KeyCode.Space))
+        {
+            colorHolder.color = new Color(1f, 1f, 1f, 1f);
         }
     }
 }

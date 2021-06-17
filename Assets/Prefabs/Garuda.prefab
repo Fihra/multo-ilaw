@@ -267,9 +267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c7bf3c03180dc6428211cf532f566a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  frequency: 440
-  increment: 0
-  phase: 0
-  sampling_frequency: 48000
-  gain: 0
-  volume: 0.1
+  explodeSFXEffect:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2bb182c048f1f164bbecb58e31b47677, type: 2}

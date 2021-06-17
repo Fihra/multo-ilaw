@@ -11,17 +11,17 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="1721608269">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3764175884">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3686594892">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1920509560">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="948631664" Name="Explode" ObjectPath="\Events\Default Work Unit\SFX\Explode" DurationType="OneShot" DurationMin="1.200000" DurationMax="1.200000"/>
+				<Event Id="13776098" Name="Explosion" ObjectPath="\Events\Default Work Unit\SFX\Explosion" DurationType="Unknown"/>
 				<Event Id="3011204530" Name="Move" ObjectPath="\Events\Default Work Unit\SFX\Move" DurationType="Unknown"/>
 				<Event Id="1270025692" Name="TitleToForestTheme" ObjectPath="\Events\Default Work Unit\Music\TitleToForestTheme" DurationType="Infinite">
 					<IncludedMemoryFiles>

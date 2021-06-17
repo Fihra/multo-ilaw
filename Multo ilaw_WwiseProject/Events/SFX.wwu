@@ -14,12 +14,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Explode" ID="{7DC4C74F-771D-497C-A47F-E33864228C67}">
+				<Event Name="Explosion" ID="{C5543A85-4125-4982-958A-00A7623F43FF}">
 					<ChildrenList>
-						<Action Name="" ID="{BEAD5E56-1670-4AC8-93FF-7D7F8782D7BE}" ShortID="726962031">
+						<Action Name="" ID="{91415C73-87B8-4820-A77E-D9ECEA50D350}" ShortID="431222787">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Explode Start" ID="{6C8AEC19-FDF4-4966-925A-D535640543A9}" WorkUnitID="{51FEC60C-E518-4A0A-9F19-541E06A8E8ED}"/>
+									<ObjectRef Name="Explosion" ID="{0F12B632-CDCA-4D69-8C40-FFAF00057D7A}" WorkUnitID="{51FEC60C-E518-4A0A-9F19-541E06A8E8ED}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

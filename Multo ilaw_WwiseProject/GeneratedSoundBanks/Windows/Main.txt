@@ -1,5 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
-	948631664	Explode			\Default Work Unit\SFX\Explode	
+	13776098	Explosion			\Default Work Unit\SFX\Explosion	
 	1270025692	TitleToForestTheme			\Default Work Unit\Music\TitleToForestTheme	
 	3011204530	Move			\Default Work Unit\SFX\Move	
 
@@ -12,13 +12,18 @@ State	ID	Name	State Group			Notes
 	4083970009	ForestTheme	SceneMusic			
 
 Modulator Envelope	ID	Name			Wwise Object Path	Notes
-	237594552	Modulator Envelope (Custom)				
 	411434021	Modulator Envelope (Custom)				
+	638459808	Modulator Envelope (Custom)				
+
+Effect plug-ins	ID	Name	Type				Notes
+	86245554	Attack_Remover	Wwise Compressor			
+	1674078407	Chorus_Like	Wwise Flanger			
+	3216246379	Space_Dreaming	Wwise RoomVerb			
+	3354577677	Fast_LF_Tremolo	Wwise Tremolo			
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	333253450	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Move\Wwise Synth One	
-	357622163	Wwise Tone Generator	Wwise Tone Generator		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Explode Start\Wwise Tone Generator	
-	917602305	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Explosion\Wwise Synth One	
+	915662486	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Explosion\Wwise Synth One	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	302744117	Forest_Theme_mastered	D:\Fabian_Files\Unity_Files\Multo-ilaw\Multo ilaw_WwiseProject\.cache\Windows\SFX\Forest_Theme_mastered_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\Forest_Theme\Forest_Theme_mastered\Forest_Theme_mastered		1399263

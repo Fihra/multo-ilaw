@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: 75cdb74b0e00664984cde0cad96c84a6
     GuidInternal: 
-    m_lastTime: -8585777317063401317
+    m_lastTime: -8585777079351349422
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: ec6cfeb2b0bef84cb4cadd44ea77e8e8
     GuidInternal: 
-    m_lastTime: -8585777317064508306
+    m_lastTime: -8585777079354750197
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 938614b490f7804a9d06ebbd222a796f
     GuidInternal: 
-    m_lastTime: -8585777317063501079
+    m_lastTime: -8585777079351379331
     List:
     - name: Main
       guid: c12e47c8350662429505babece947157
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 4d21e2a95cc0a348a661d51aa5849829
     GuidInternal: 
-    m_lastTime: -8585777317064727779
+    m_lastTime: -8585777079354869970
     List: []
   - PhysicalPath: Events\Music.wwu
     PathAndIcons:
@@ -110,7 +110,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Music
     guid: 1cc7a238c1a1b44b8a79051c44ab2829
     GuidInternal: 
-    m_lastTime: -8585777303514608142
+    m_lastTime: -8585777079354869970
     List:
     - name: TitleToForestTheme
       guid: e04ae7dad029f24a91d7da2f7e142638
@@ -146,11 +146,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\SFX
     guid: 1741014dabb58f47932262ea3f479deb
     GuidInternal: 
-    m_lastTime: -8585777317064707819
+    m_lastTime: -8585777079354860017
     List:
-    - name: Explode
-      guid: 4fc7c47d1d777c49a47fe33864228c67
-      id: 948631664
+    - name: Explosion
+      guid: 853a54c525418249958a00a7623f43ff
+      id: 13776098
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -161,13 +161,13 @@ MonoBehaviour:
       - ElementName: SFX
         ObjectType: 12
         guid: 1741014dabb58f47932262ea3f479deb
-      - ElementName: Explode
+      - ElementName: Explosion
         ObjectType: 3
-        guid: 4fc7c47d1d777c49a47fe33864228c67
-      Path: Events\Default Work Unit\SFX\Explode
+        guid: 853a54c525418249958a00a7623f43ff
+      Path: Events\Default Work Unit\SFX\Explosion
       maxAttenuation: 0
-      maxDuration: 1.2
-      minDuration: 1.2
+      maxDuration: -1
+      minDuration: -1
     - name: Move
       guid: 344996f12e77c84e9d9fb635e91628c0
       id: 3011204530
@@ -200,7 +200,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: e668fbdc9e9443429f53efb57f9cbb71
     GuidInternal: 
-    m_lastTime: -8585777317064697864
+    m_lastTime: -8585777079354850051
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -214,7 +214,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 4ef4b841388b3e48bb2aa14c7f2f81fd
     GuidInternal: 
-    m_lastTime: -8585777304510116084
+    m_lastTime: -8585777082135294972
     List:
     - name: SceneMusic
       guid: 73d6ef68a2c630429c7d2c16cd83d0ac
@@ -294,7 +294,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: a8296cba170dfe4a8f63836a36474348
     GuidInternal: 
-    m_lastTime: -8585777317063441233
+    m_lastTime: -8585777079351369360
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
@@ -308,7 +308,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 20a77cafdc65694794163ecb92caf1e9
     GuidInternal: 
-    m_lastTime: -8585777317063431266
+    m_lastTime: -8585777079351359396
     List: []
   ExpandedFileSystemItemIds: 02000000030000000400000005000000060000000b0000000c0000000d0000000e000000
   ExpandedWaapiItemIds: 020000000300000004000000

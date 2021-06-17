@@ -27,10 +27,12 @@ public class Player : MonoBehaviour
     public GameObject moveDownEffect;
 
     SpriteRenderer colorHolder;
+    BoxCollider2D playerTrigger;
 
     private void Start()
     {
         colorHolder = GetComponent<SpriteRenderer>();
+        playerTrigger = GetComponent<BoxCollider2D>();
     }
 
     // Update is called once per frame
@@ -86,10 +88,12 @@ public class Player : MonoBehaviour
         else if(Input.GetKeyDown(KeyCode.Space))
         {
             colorHolder.color = new Color(1f, 1f, 1f, 0.5f);
+            playerTrigger.isTrigger = false;
         }
         else if(Input.GetKeyUp(KeyCode.Space))
         {
             colorHolder.color = new Color(1f, 1f, 1f, 1f);
+            playerTrigger.isTrigger = true;
         }
     }
 }

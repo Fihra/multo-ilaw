@@ -7,6 +7,7 @@ public class Obstacle : MonoBehaviour
     public int damage = 1;
     public float speed;
     public GameObject effect;
+    BoxCollider2D playerCollider;
 
     private void Update()
     {
@@ -22,9 +23,15 @@ public class Obstacle : MonoBehaviour
         
         if (collision.CompareTag("Player"))
         {
-            Instantiate(effect, transform.position, Quaternion.identity);
-            collision.GetComponent<Player>().health -= damage;
-            Destroy(gameObject);
+            playerCollider = collision.GetComponent<BoxCollider2D>();
+
+            if(playerCollider.isTrigger)
+            {
+                Instantiate(effect, transform.position, Quaternion.identity);
+                collision.GetComponent<Player>().health -= damage;
+                Destroy(gameObject);
+            }
+
         }
     }
 }

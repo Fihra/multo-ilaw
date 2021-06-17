@@ -4857,6 +4857,7 @@ GameObject:
   - component: {fileID: 5156891418260655273}
   - component: {fileID: 5156891418260655275}
   - component: {fileID: 5156891418260655272}
+  - component: {fileID: 606320995}
   m_Layer: 0
   m_Name: Multo
   m_TagString: Player
@@ -4966,7 +4967,15 @@ MonoBehaviour:
   maxHeight: 3
   minHeight: -2
   health: 5
-  healthDisplay: {fileID: 0}
+  numOfLights: 5
+  lights:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  fullLight: {fileID: -5467687207628772739, guid: a3d0125d6973e6547958734195593a4c, type: 3}
+  emptyLight: {fileID: 8072153844172271705, guid: a3d0125d6973e6547958734195593a4c, type: 3}
   gameOver: {fileID: 0}
   effect: {fileID: 688674276453717120, guid: 392d1c2a4eab80d46b2a4ee37d7bc85e, type: 3}
   moveUpEffect: {fileID: 2449361585690844067, guid: a1245e02699aed84f8f9beb6c65e21c4, type: 3}
@@ -5018,3 +5027,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &606320995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5156891418260655285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7fa11018a0fff445bb7579f85321621, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sfxEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 06f9e34a94d21e84a92f6aa20fbb23dc, type: 2}

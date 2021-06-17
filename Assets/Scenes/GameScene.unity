@@ -5666,27 +5666,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &606320994 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5156891418260655285, guid: 15d1b0422a2eafb46a0f14dd6a23e661, type: 3}
-  m_PrefabInstance: {fileID: 5156891419082174201}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &606320995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 606320994}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7fa11018a0fff445bb7579f85321621, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sfxEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 06f9e34a94d21e84a92f6aa20fbb23dc, type: 2}
 --- !u!1 &658466213
 GameObject:
   m_ObjectHideFlags: 0
@@ -5938,7 +5917,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5156891418260655273, guid: 15d1b0422a2eafb46a0f14dd6a23e661, type: 3}
   m_PrefabInstance: {fileID: 5156891419082174201}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 606320994}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1a1b1b616217cd5469d8c407be7eb6e3, type: 3}
@@ -7237,18 +7216,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 5156891418260655273, guid: 15d1b0422a2eafb46a0f14dd6a23e661, type: 3}
-      propertyPath: lights.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5156891418260655273, guid: 15d1b0422a2eafb46a0f14dd6a23e661, type: 3}
-      propertyPath: healthDisplay
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5156891418260655273, guid: 15d1b0422a2eafb46a0f14dd6a23e661, type: 3}
-      propertyPath: gameOver
-      value: 
-      objectReference: {fileID: 241670154}
-    - target: {fileID: 5156891418260655273, guid: 15d1b0422a2eafb46a0f14dd6a23e661, type: 3}
       propertyPath: lights.Array.data[0]
       value: 
       objectReference: {fileID: 1230252387}
@@ -7269,17 +7236,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 210784723}
     - target: {fileID: 5156891418260655273, guid: 15d1b0422a2eafb46a0f14dd6a23e661, type: 3}
-      propertyPath: fullLight
+      propertyPath: gameOver
       value: 
-      objectReference: {fileID: -5467687207628772739, guid: a3d0125d6973e6547958734195593a4c, type: 3}
-    - target: {fileID: 5156891418260655273, guid: 15d1b0422a2eafb46a0f14dd6a23e661, type: 3}
-      propertyPath: emptyLight
-      value: 
-      objectReference: {fileID: 8072153844172271705, guid: a3d0125d6973e6547958734195593a4c, type: 3}
-    - target: {fileID: 5156891418260655273, guid: 15d1b0422a2eafb46a0f14dd6a23e661, type: 3}
-      propertyPath: numOfLights
-      value: 5
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 241670154}
     - target: {fileID: 5156891418260655285, guid: 15d1b0422a2eafb46a0f14dd6a23e661, type: 3}
       propertyPath: m_Name
       value: Multo

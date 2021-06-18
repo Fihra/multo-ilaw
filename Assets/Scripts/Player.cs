@@ -19,6 +19,7 @@ public class Player : MonoBehaviour
     float phase = 1.0f;
 
     public Slider phaseSlider;
+    bool isExhaustRecharging = false;
 
     public Image[] lights;
     public Sprite fullLight;
@@ -99,17 +100,42 @@ public class Player : MonoBehaviour
         ManageHealth();
         Movement();
 
-        if(Input.GetKey(KeyCode.Space) && phaseSlider.value > 0)
+        if (phaseSlider.value == 1)
+        {
+            isExhaustRecharging = false;
+        }
+
+        if (phaseSlider.value <= 0)
+        {
+            isExhaustRecharging = true;
+            StartCoroutine(PhaseRoutine());
+        }
+
+        if (Input.GetKey(KeyCode.Space) && phaseSlider.value > 0 && !isExhaustRecharging)
         {
             colorHolder.color = new Color(1f, 1f, 1f, 0.5f);
             phaseSlider.value -= 1f * Time.deltaTime;
             playerTrigger.isTrigger = false;
         }
-        else
+        else if(phaseSlider.value < 1f)
         {
             colorHolder.color = new Color(1f, 1f, 1f, 1f);
             phaseSlider.value += 1f * Time.deltaTime;
             playerTrigger.isTrigger = true;
+
+
         }
+        else 
+        {
+            isExhaustRecharging = true;
+        }
+    }
+
+    private IEnumerator PhaseRoutine()
+    {
+        colorHolder.color = new Color(1f, 1f, 1f, 1f);
+        phaseSlider.value += 1f * Time.deltaTime;
+        playerTrigger.isTrigger = true;
+        yield return new WaitForSeconds(2);
     }
 }

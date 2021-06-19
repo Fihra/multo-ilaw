@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
     float phase = 1.0f;
 
     public Slider phaseSlider;
-    bool isExhaustRecharging = false;
+    bool phaseCooldown = false;
 
     public Image[] lights;
     public Sprite fullLight;
@@ -94,48 +94,50 @@ public class Player : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    private IEnumerator PhaseRoutine()
     {
-        ManageHealth();
-        Movement();
+        colorHolder.color = new Color(1f, 1f, 1f, 1f);
+        phaseSlider.value += 0.5f * Time.deltaTime;
+        playerTrigger.isTrigger = true;
+        yield return new WaitForSeconds(3);
+    }
 
+    void Phase()
+    {
         if (phaseSlider.value == 1)
         {
-            isExhaustRecharging = false;
+            phaseCooldown = false;
         }
 
         if (phaseSlider.value <= 0)
         {
-            isExhaustRecharging = true;
+            phaseCooldown = true;
             StartCoroutine(PhaseRoutine());
         }
 
-        if (Input.GetKey(KeyCode.Space) && phaseSlider.value > 0 && !isExhaustRecharging)
+        if (Input.GetKey(KeyCode.Space) && phaseSlider.value > 0 && !phaseCooldown)
         {
             colorHolder.color = new Color(1f, 1f, 1f, 0.5f);
             phaseSlider.value -= 1f * Time.deltaTime;
             playerTrigger.isTrigger = false;
         }
-        else if(phaseSlider.value < 1f)
+
+        else if (phaseSlider.value < 1f)
         {
             colorHolder.color = new Color(1f, 1f, 1f, 1f);
-            phaseSlider.value += 1f * Time.deltaTime;
+            phaseSlider.value += 0.5f * Time.deltaTime;
             playerTrigger.isTrigger = true;
-
-
         }
-        else 
+        else
         {
-            isExhaustRecharging = true;
+            phaseCooldown = true;
         }
     }
 
-    private IEnumerator PhaseRoutine()
+    void Update()
     {
-        colorHolder.color = new Color(1f, 1f, 1f, 1f);
-        phaseSlider.value += 1f * Time.deltaTime;
-        playerTrigger.isTrigger = true;
-        yield return new WaitForSeconds(2);
+        ManageHealth();
+        Movement();
+        Phase();
     }
 }

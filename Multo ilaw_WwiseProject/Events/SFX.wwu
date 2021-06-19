@@ -25,6 +25,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Phase" ID="{1FA52E8A-D6BE-492A-B2B3-73C0DA679BF2}">
+					<ChildrenList>
+						<Action Name="" ID="{D1D3269C-D98E-4CF3-A174-2CBD8DFFD331}" ShortID="862105820">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Phase" ID="{998AE55D-1E85-47C8-AB92-A533C708217E}" WorkUnitID="{51FEC60C-E518-4A0A-9F19-541E06A8E8ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

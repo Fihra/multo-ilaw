@@ -36,6 +36,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Cooldown" ID="{166F4EED-1E5E-4FAF-A0E5-D9CAF0FD1972}">
+					<ChildrenList>
+						<Action Name="" ID="{00EE92C3-D530-40F0-BE45-9204D99B18D2}" ShortID="573334586">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Cooldown" ID="{72214E2D-EBD1-4024-9FD1-791F7BE6D77E}" WorkUnitID="{51FEC60C-E518-4A0A-9F19-541E06A8E8ED}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

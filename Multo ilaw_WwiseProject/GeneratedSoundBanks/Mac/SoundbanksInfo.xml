@@ -11,18 +11,20 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3764175884">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3707153007">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1920509560">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1360837766">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1355561006" Name="Cooldown" ObjectPath="\Events\Default Work Unit\SFX\Cooldown" DurationType="Unknown"/>
 				<Event Id="13776098" Name="Explosion" ObjectPath="\Events\Default Work Unit\SFX\Explosion" DurationType="Unknown"/>
 				<Event Id="3011204530" Name="Move" ObjectPath="\Events\Default Work Unit\SFX\Move" DurationType="Unknown"/>
+				<Event Id="3459452222" Name="Phase" ObjectPath="\Events\Default Work Unit\SFX\Phase" DurationType="Unknown"/>
 				<Event Id="1270025692" Name="TitleToForestTheme" ObjectPath="\Events\Default Work Unit\Music\TitleToForestTheme" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="302744117" Language="SFX">
@@ -48,6 +50,10 @@
 					</SwitchContainers>
 				</Event>
 			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1355561006" Name="Cooldown" ObjectPath="\Game Parameters\Default Work Unit\Cooldown"/>
+				<GameParameter Id="2415836739" Name="Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="2383225044" Name="SceneMusic" ObjectPath="\States\Default Work Unit\SceneMusic">
 					<States>

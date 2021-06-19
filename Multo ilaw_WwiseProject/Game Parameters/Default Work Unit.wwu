@@ -6,11 +6,13 @@
 				<GameParameter Name="Volume" ID="{7AE6EC05-8E33-410A-995D-B1D3AEE4BB03}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
 					</PropertyList>
 				</GameParameter>
 				<GameParameter Name="Cooldown" ID="{DC0D0DEC-A5B6-4006-8C6E-79F79387B7D3}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="RTPCRamping" Type="int16" Value="1"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

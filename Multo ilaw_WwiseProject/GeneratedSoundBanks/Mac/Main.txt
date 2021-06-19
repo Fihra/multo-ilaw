@@ -1,7 +1,9 @@
 Event	ID	Name			Wwise Object Path	Notes
 	13776098	Explosion			\Default Work Unit\SFX\Explosion	
 	1270025692	TitleToForestTheme			\Default Work Unit\Music\TitleToForestTheme	
+	1355561006	Cooldown			\Default Work Unit\SFX\Cooldown	
 	3011204530	Move			\Default Work Unit\SFX\Move	
+	3459452222	Phase			\Default Work Unit\SFX\Phase	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	2383225044	SceneMusic			\Default Work Unit\SceneMusic	
@@ -11,18 +13,28 @@ State	ID	Name	State Group			Notes
 	1223337640	TitleTheme	SceneMusic			
 	4083970009	ForestTheme	SceneMusic			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1355561006	Cooldown			\Default Work Unit\Cooldown	
+	2415836739	Volume			\Default Work Unit\Volume	
+
 Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	148276811	Modulator Envelope (Custom)				
 	411434021	Modulator Envelope (Custom)				
 	638459808	Modulator Envelope (Custom)				
+	1052206394	Modulator Envelope (Custom)				
 
 Effect plug-ins	ID	Name	Type				Notes
 	86245554	Attack_Remover	Wwise Compressor			
+	270049175	Wwise Flanger (Custom)	Wwise Flanger			
+	460182346	Wwise Flanger (Custom)	Wwise Flanger			
 	1674078407	Chorus_Like	Wwise Flanger			
 	3216246379	Space_Dreaming	Wwise RoomVerb			
 	3354577677	Fast_LF_Tremolo	Wwise Tremolo			
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	258015615	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Cooldown\Wwise Synth One	
 	333253450	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Move\Wwise Synth One	
+	811147389	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Phase\Wwise Synth One	
 	915662486	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Explosion\Wwise Synth One	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size

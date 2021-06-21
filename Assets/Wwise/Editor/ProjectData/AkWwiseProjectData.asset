@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 938614b490f7804a9d06ebbd222a796f
     GuidInternal: 
-    m_lastTime: -8585777079351379331
+    m_lastTime: -8585774783668146227
     List:
     - name: Main
       guid: c12e47c8350662429505babece947157
@@ -146,8 +146,28 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\SFX
     guid: 1741014dabb58f47932262ea3f479deb
     GuidInternal: 
-    m_lastTime: -8585777079354860017
+    m_lastTime: -8585774787318305173
     List:
+    - name: Cooldown
+      guid: ed4e6f165e1eaf4fa0e5d9caf0fd1972
+      id: 1355561006
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4d21e2a95cc0a348a661d51aa5849829
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 1741014dabb58f47932262ea3f479deb
+      - ElementName: Cooldown
+        ObjectType: 3
+        guid: ed4e6f165e1eaf4fa0e5d9caf0fd1972
+      Path: Events\Default Work Unit\SFX\Cooldown
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Explosion
       guid: 853a54c525418249958a00a7623f43ff
       id: 13776098
@@ -188,6 +208,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Phase
+      guid: 8a2ea51fbed62a49b2b373c0da679bf2
+      id: 3459452222
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4d21e2a95cc0a348a661d51aa5849829
+      - ElementName: SFX
+        ObjectType: 12
+        guid: 1741014dabb58f47932262ea3f479deb
+      - ElementName: Phase
+        ObjectType: 3
+        guid: 8a2ea51fbed62a49b2b373c0da679bf2
+      Path: Events\Default Work Unit\SFX\Phase
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -200,8 +240,36 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: e668fbdc9e9443429f53efb57f9cbb71
     GuidInternal: 
-    m_lastTime: -8585777079354850051
-    List: []
+    m_lastTime: -8585774787318394955
+    List:
+    - name: Cooldown
+      guid: ec0d0ddcb6a506408c6e79f79387b7d3
+      id: 1355561006
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e668fbdc9e9443429f53efb57f9cbb71
+      - ElementName: Cooldown
+        ObjectType: 13
+        guid: ec0d0ddcb6a506408c6e79f79387b7d3
+      Path: Game Parameters\Default Work Unit\Cooldown
+    - name: Volume
+      guid: 05ece67a338e0a41995db1d3aee4bb03
+      id: 2415836739
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: e668fbdc9e9443429f53efb57f9cbb71
+      - ElementName: Volume
+        ObjectType: 13
+        guid: 05ece67a338e0a41995db1d3aee4bb03
+      Path: Game Parameters\Default Work Unit\Volume
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:

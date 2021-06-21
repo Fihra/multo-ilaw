@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class PhaseCooldown : MonoBehaviour
 {
-    public AK.Wwise.Event cooldownEvent;
+    //public AK.Wwise.Event cooldownEvent;
 
-    public uint cooldownSoundID;
+    private uint cooldownSoundID;
 
     private Slider phaseSlider;
     private float phaseSliderValue;

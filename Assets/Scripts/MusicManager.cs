@@ -26,6 +26,6 @@ public class MusicManager : MonoBehaviour
             musicStates[1].SetValue();
 
         }
-        Debug.Log(currentScene.name);
+        //Debug.Log(currentScene.name);
     }
 }

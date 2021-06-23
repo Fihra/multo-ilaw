@@ -594,8 +594,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000012159, y: -137}
-  m_SizeDelta: {x: 332.3792, y: 135.53464}
+  m_AnchoredPosition: {x: 12, y: -327}
+  m_SizeDelta: {x: 471.42554, y: 223.73276}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &609499202
 MonoBehaviour:
@@ -818,8 +818,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -236, y: -31}
-  m_SizeDelta: {x: 548.2477, y: 193.92767}
+  m_AnchoredPosition: {x: -497, y: -127.49}
+  m_SizeDelta: {x: 704.25085, y: 254.98798}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &750784203
 MonoBehaviour:
@@ -843,11 +843,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 22e0243ba04e69142b81b1b4a348293b, type: 3}
-    m_FontSize: 36
+    m_FontSize: 47
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10
-    m_MaxSize: 59
+    m_MaxSize: 61
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -1172,8 +1172,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.7241379}
-  m_AnchoredPosition: {x: 12, y: 68}
-  m_SizeDelta: {x: 511.3015, y: 141.2732}
+  m_AnchoredPosition: {x: 12, y: 82}
+  m_SizeDelta: {x: 945.397, y: 239.64801}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1676307106
 MonoBehaviour:
@@ -1405,11 +1405,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4467998256874635243, guid: ab250df94ed21fc4695c16d34eb2c6b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.84
+      value: -2.28
       objectReference: {fileID: 0}
     - target: {fileID: 4467998256874635243, guid: ab250df94ed21fc4695c16d34eb2c6b7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.83
+      value: 1.67
       objectReference: {fileID: 0}
     - target: {fileID: 4467998256874635243, guid: ab250df94ed21fc4695c16d34eb2c6b7, type: 3}
       propertyPath: m_LocalPosition.z

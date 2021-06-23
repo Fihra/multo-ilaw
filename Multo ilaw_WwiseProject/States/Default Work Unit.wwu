@@ -8,6 +8,7 @@
 						<State Name="None" ID="{B4E55B6E-03BD-4BC9-A46C-906B0BC5D877}"/>
 						<State Name="TitleTheme" ID="{A6BC4227-5A54-43DF-9DFB-2D51CB5056CC}"/>
 						<State Name="ForestTheme" ID="{9012D273-84CD-4619-8095-3F26903FC18F}"/>
+						<State Name="EndTheme" ID="{6C8BCDB2-0656-4DBA-9454-79CA4B66644A}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>

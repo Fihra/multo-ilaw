@@ -291,6 +291,412 @@
 								</MusicPlaylistItem>
 							</Playlist>
 						</MusicPlaylistContainer>
+						<MusicSegment Name="Multo_ilaw-End_Theme_Transition" ID="{2A210332-239A-4923-99C7-5ADB5794D79C}" ShortID="138768285">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="4400"/>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="150"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8134D63-C0FC-4BFD-A949-1739564D26B0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2FE6CEC-BEB0-4CF8-B4CA-DD44EA77E8E8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="Multo_ilaw-End_Theme_Transition" ID="{F2B812FE-C097-412A-B7AB-58722B725A48}" ShortID="455178061">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2FE6CEC-BEB0-4CF8-B4CA-DD44EA77E8E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Multo_ilaw-End_Theme_Transition" ID="{CFAF4086-F015-4998-8205-57229841DD59}">
+											<Language>SFX</Language>
+											<AudioFile>Multo_ilaw-End_Theme_Transition.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1001868989"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{490FD400-06A9-41EC-BB65-92E44E8E7C1C}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{3D5B6689-E06F-486A-90DC-E6A077759E20}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="Multo_ilaw-End_Theme_Transition" ID="{9D487607-0A0B-485D-ACF4-31CC10A20F8A}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="4400"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="Multo_ilaw-End_Theme_Transition" ID="{CFAF4086-F015-4998-8205-57229841DD59}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{287362ED-F95E-41A1-A50B-B3FF8A3E8B9D}">
+												<PropertyList>
+													<Property Name="TimeMs" Type="Real64" Value="392.488262910798"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{E3F7163A-CB43-49BA-8C64-BC3955A47F3B}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="3601.8779342723"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicPlaylistContainer Name="End_Theme" ID="{F5A3907A-6472-489F-8403-486701EB674B}" ShortID="519803083">
+							<PropertyList>
+								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
+								<Property Name="Tempo" Type="Real64" Value="150"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8134D63-C0FC-4BFD-A949-1739564D26B0}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2FE6CEC-BEB0-4CF8-B4CA-DD44EA77E8E8}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="Multo_ilaw-End_Theme_A" ID="{3CEAD259-3AD9-4615-A599-460037C822FF}" ShortID="393275850">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="13200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8134D63-C0FC-4BFD-A949-1739564D26B0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2FE6CEC-BEB0-4CF8-B4CA-DD44EA77E8E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Multo_ilaw-End_Theme_A" ID="{0276BEE7-330F-41A7-A4FD-F9330F713533}" ShortID="554853153">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2FE6CEC-BEB0-4CF8-B4CA-DD44EA77E8E8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Multo_ilaw-End_Theme_A" ID="{B61F4F87-9280-4DCB-97FC-DFAE07E79B6E}">
+													<Language>SFX</Language>
+													<AudioFile>Multo_ilaw-End_Theme_A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="920730275"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{9A6424DF-B037-4944-855F-D12A4BEDA3D3}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{76402317-F27B-4272-8578-C6227F5842F2}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Multo_ilaw-End_Theme_A" ID="{D9E1CDF9-9041-44B1-8CF0-6175F87953F3}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="13200"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Multo_ilaw-End_Theme_A" ID="{B61F4F87-9280-4DCB-97FC-DFAE07E79B6E}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{4A11CFA0-0771-4AB8-8807-F96A3820F451}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="387.323943661972"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{B8D8CEA8-376A-468E-B95F-1FE4CFC79F9D}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="13200"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Multo_ilaw-End_Theme_coda" ID="{4EC375CA-8955-4A07-85FC-B42E6A9D401F}" ShortID="218894272">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="10035.2112676056"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8134D63-C0FC-4BFD-A949-1739564D26B0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2FE6CEC-BEB0-4CF8-B4CA-DD44EA77E8E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Multo_ilaw-End_Theme_coda" ID="{4047EA35-9C22-4911-9AA5-238E2E6BA495}" ShortID="887850853">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2FE6CEC-BEB0-4CF8-B4CA-DD44EA77E8E8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Multo_ilaw-End_Theme_coda" ID="{E6F91B4F-E999-4BFE-8243-6EA1F9F402CC}">
+													<Language>SFX</Language>
+													<AudioFile>Multo_ilaw-End_Theme_coda.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="662958941"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{4311B42F-BBF3-4A2C-9B3F-7FAA3B92BA6C}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{C015DA8E-604D-4493-B239-B76FA741F0D8}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Multo_ilaw-End_Theme_coda" ID="{9917F3A6-CA61-44D8-8557-2C4DA3768122}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="10000"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Multo_ilaw-End_Theme_coda" ID="{E6F91B4F-E999-4BFE-8243-6EA1F9F402CC}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{7F87548D-619E-46D1-9067-32D53093B2D9}">
+														<PropertyList>
+															<Property Name="TimeMs" Type="Real64" Value="5187.79342723005"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{E12A10C9-7EE2-4EA9-90F2-9268618E0624}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="9178.40375586854"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Multo_ilaw-End_Theme_B" ID="{BEE27539-C141-41B3-8635-7AF2E28349C1}" ShortID="208415131">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="27200"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D8134D63-C0FC-4BFD-A949-1739564D26B0}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2FE6CEC-BEB0-4CF8-B4CA-DD44EA77E8E8}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="Multo_ilaw-End_Theme_B" ID="{5772B96F-7A6C-4EBF-BD91-C6F660D7DE2C}" ShortID="888823462">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{B2FE6CEC-BEB0-4CF8-B4CA-DD44EA77E8E8}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Multo_ilaw-End_Theme_B" ID="{8274299F-EC4C-44C6-9FBA-8FB96566FD26}">
+													<Language>SFX</Language>
+													<AudioFile>Multo_ilaw-End_Theme_B.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="801869199"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{A035F626-36DD-4B4E-AE44-6DFF0109509F}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{5A837038-4042-4EA7-9451-9BF23D9CC6CB}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Multo_ilaw-End_Theme_B" ID="{20E1A4A1-DCED-480D-8D54-F02EB4B22088}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="27200"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Multo_ilaw-End_Theme_B" ID="{8274299F-EC4C-44C6-9FBA-8FB96566FD26}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{8C762162-A51A-4CC0-8885-6F16FBBC5E14}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{14A43468-D26B-428B-AEA9-A05C416624AC}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="25667.6056338028"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{FA7DA95C-7524-46B9-ACEC-12417C5BA67E}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{F27AE0DD-85D0-48DE-B45E-85266EEAE893}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{49155012-B0E9-41C0-A619-FDA6F2D42F2F}" ShortID="499761568">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{59C2EA1C-4B5C-46DF-836A-0E0ECA1AC69D}" ShortID="610662914">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Multo_ilaw-End_Theme_A" ID="{3CEAD259-3AD9-4615-A599-460037C822FF}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{165A6B0D-9002-4EFA-8611-794D0B04F1E0}" ShortID="36975375"/>
+										<MusicPlaylistItem Name="" ID="{C6ED569F-C95D-4110-A863-0BE9FCDC7740}" ShortID="521280769">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Multo_ilaw-End_Theme_B" ID="{BEE27539-C141-41B3-8635-7AF2E28349C1}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{C54856C2-CBE2-4A1C-BA92-BF0CDFCE5418}" ShortID="544257953"/>
+										<MusicPlaylistItem Name="" ID="{2CDA5442-416D-4698-A4E6-2966ED1FB184}" ShortID="957390099">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Multo_ilaw-End_Theme_coda" ID="{4EC375CA-8955-4A07-85FC-B42E6A9D401F}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
 					</ChildrenList>
 					<TransitionList>
 						<MusicTransition Name="Root" ID="{CD759250-77CF-416C-8939-4B20A9A9F77D}">
@@ -369,6 +775,34 @@
 										</DestinationFadeIn>
 									</TransitionInfo>
 								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{D8CFEF52-D289-4E7D-A3E9-49205AE84F82}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Multo_ilaw-End_Theme_A" ID="{3CEAD259-3AD9-4615-A599-460037C822FF}" WorkUnitID="{A64872C4-304C-40EE-996B-B4B87A2F1F99}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Forest_Theme_mastered" ID="{587BF123-860E-4D8E-9DFC-6FD7B163C26F}" WorkUnitID="{A64872C4-304C-40EE-996B-B4B87A2F1F99}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="Multo_ilaw-End_Theme_Transition" ID="{2A210332-239A-4923-99C7-5ADB5794D79C}" WorkUnitID="{A64872C4-304C-40EE-996B-B4B87A2F1F99}"/>
+										<SourceFadeOut>
+											<MusicFade Name="Source Fade-out" ID="{A7A495A7-8799-4134-864A-BEE3552465A6}">
+												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="1"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</SourceFadeOut>
+									</TransitionInfo>
+								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>
 						</MusicTransition>
@@ -392,6 +826,14 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Forest_Theme" ID="{3A416D22-C8BA-4171-86CB-C00BD3A4D9BD}" WorkUnitID="{A64872C4-304C-40EE-996B-B4B87A2F1F99}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="EndTheme" ID="{6C8BCDB2-0656-4DBA-9454-79CA4B66644A}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="End_Theme" ID="{F5A3907A-6472-489F-8403-486701EB674B}" WorkUnitID="{A64872C4-304C-40EE-996B-B4B87A2F1F99}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>

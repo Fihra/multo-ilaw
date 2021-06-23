@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ScoreManager : MonoBehaviour
 {
@@ -9,19 +10,18 @@ public class ScoreManager : MonoBehaviour
     public Text scoreDisplay;
     public Player playerHealth;
 
-    //private void Start()
-    //{
-    //    playerHealth = GetComponent<Player>();
-    //}
-
     private void Update()
     {
+        //if (score >= 50)
+        //{
+        //    //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        //}
+
         scoreDisplay.text = "Score: " + score.ToString();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        //Debug.Log(playerHealth);
         if(playerHealth.health <= 0)
         {
             return;
@@ -29,7 +29,6 @@ public class ScoreManager : MonoBehaviour
 
         if (other.CompareTag("Enemy")){
             score++;
-            //Debug.Log(score);
         }
     }
 }

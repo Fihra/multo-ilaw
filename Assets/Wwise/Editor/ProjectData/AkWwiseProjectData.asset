@@ -282,7 +282,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 4ef4b841388b3e48bb2aa14c7f2f81fd
     GuidInternal: 
-    m_lastTime: -8585777082135294972
+    m_lastTime: -8585771993630282241
     List:
     - name: SceneMusic
       guid: 73d6ef68a2c630429c7d2c16cd83d0ac
@@ -299,6 +299,22 @@ MonoBehaviour:
         guid: 73d6ef68a2c630429c7d2c16cd83d0ac
       Path: States\Default Work Unit\SceneMusic
       values:
+      - name: EndTheme
+        guid: b2cd8b6c5606ba4d945479ca4b66644a
+        id: 3493095475
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4ef4b841388b3e48bb2aa14c7f2f81fd
+        - ElementName: SceneMusic
+          ObjectType: 9
+          guid: 73d6ef68a2c630429c7d2c16cd83d0ac
+        - ElementName: EndTheme
+          ObjectType: 8
+          guid: b2cd8b6c5606ba4d945479ca4b66644a
       - name: ForestTheme
         guid: 73d21290cd84194680953f26903fc18f
         id: 4083970009

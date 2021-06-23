@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="Music" ID="{38A2C71C-A1C1-4BB4-8A79-051C44AB2829}" OwnerID="{A9E2214D-C05C-48A3-A661-D51AA5849829}" PersistMode="Nested">
 			<ChildrenList>
-				<Event Name="TitleToForestTheme" ID="{DAE74AE0-29D0-4AF2-91D7-DA2F7E142638}">
+				<Event Name="StateMusicControl" ID="{DAE74AE0-29D0-4AF2-91D7-DA2F7E142638}">
 					<ChildrenList>
 						<Action Name="" ID="{1F091B3E-5B2A-45F6-8D5A-E28B49F38B0E}" ShortID="518799702">
 							<ReferenceList>

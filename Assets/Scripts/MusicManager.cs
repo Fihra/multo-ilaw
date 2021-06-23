@@ -21,11 +21,33 @@ public class MusicManager : MonoBehaviour
     private void Update()
     {
         currentScene = SceneManager.GetActiveScene();
-        if (currentScene.name == "GameScene")
+        switch (currentScene.name)
         {
-            musicStates[1].SetValue();
-
+            case "GameScene":
+                musicStates[1].SetValue();
+                break;
+            case "EndScene":
+                Debug.Log("Play End Theme");
+                musicStates[2].SetValue();
+                break;
+            case "TitleScene":
+                musicStates[0].SetValue();
+                break;
+            default:
+                return;
         }
+        //if (currentScene.name == "GameScene")
+        //{
+        //    musicStates[1].SetValue();
+
+        //}
+
+        //else if(currentScene.name == "EndScene")
+        //{
+        //    musicStates[2].SetValue();
+
+        //}
+
         //Debug.Log(currentScene.name);
     }
 }

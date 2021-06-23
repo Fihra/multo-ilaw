@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 938614b490f7804a9d06ebbd222a796f
     GuidInternal: 
-    m_lastTime: -8585774783668146227
+    m_lastTime: -8585771636315610888
     List:
     - name: Main
       guid: c12e47c8350662429505babece947157
@@ -110,11 +110,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Music
     guid: 1cc7a238c1a1b44b8a79051c44ab2829
     GuidInternal: 
-    m_lastTime: -8585777079354869970
+    m_lastTime: -8585771651607459470
     List:
-    - name: TitleToForestTheme
+    - name: StateMusicControl
       guid: e04ae7dad029f24a91d7da2f7e142638
-      id: 1270025692
+      id: 1410518140
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -125,10 +125,10 @@ MonoBehaviour:
       - ElementName: Music
         ObjectType: 12
         guid: 1cc7a238c1a1b44b8a79051c44ab2829
-      - ElementName: TitleToForestTheme
+      - ElementName: StateMusicControl
         ObjectType: 3
         guid: e04ae7dad029f24a91d7da2f7e142638
-      Path: Events\Default Work Unit\Music\TitleToForestTheme
+      Path: Events\Default Work Unit\Music\StateMusicControl
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -282,7 +282,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 4ef4b841388b3e48bb2aa14c7f2f81fd
     GuidInternal: 
-    m_lastTime: -8585771993630282241
+    m_lastTime: -8585771652772880583
     List:
     - name: SceneMusic
       guid: 73d6ef68a2c630429c7d2c16cd83d0ac
@@ -299,6 +299,22 @@ MonoBehaviour:
         guid: 73d6ef68a2c630429c7d2c16cd83d0ac
       Path: States\Default Work Unit\SceneMusic
       values:
+      - name: EndCoda
+        guid: d14fc3aa21c0f04d96a7f2d05e475cb6
+        id: 2918411671
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 4ef4b841388b3e48bb2aa14c7f2f81fd
+        - ElementName: SceneMusic
+          ObjectType: 9
+          guid: 73d6ef68a2c630429c7d2c16cd83d0ac
+        - ElementName: EndCoda
+          ObjectType: 8
+          guid: d14fc3aa21c0f04d96a7f2d05e475cb6
       - name: EndTheme
         guid: b2cd8b6c5606ba4d945479ca4b66644a
         id: 3493095475
@@ -394,7 +410,7 @@ MonoBehaviour:
     GuidInternal: 
     m_lastTime: -8585777079351359396
     List: []
-  ExpandedFileSystemItemIds: 02000000030000000400000005000000060000000b0000000c0000000d0000000e000000
+  ExpandedFileSystemItemIds: 02000000030000000400000005000000060000000b0000000c0000000d0000000e0000000f000000
   ExpandedWaapiItemIds: 020000000300000004000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1

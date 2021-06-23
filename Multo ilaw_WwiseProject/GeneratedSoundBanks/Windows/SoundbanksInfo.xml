@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="3022810969">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3964180119">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1360837766">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1050031285">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -25,8 +25,12 @@
 				<Event Id="13776098" Name="Explosion" ObjectPath="\Events\Default Work Unit\SFX\Explosion" DurationType="Unknown"/>
 				<Event Id="3011204530" Name="Move" ObjectPath="\Events\Default Work Unit\SFX\Move" DurationType="Unknown"/>
 				<Event Id="3459452222" Name="Phase" ObjectPath="\Events\Default Work Unit\SFX\Phase" DurationType="Unknown"/>
-				<Event Id="1270025692" Name="TitleToForestTheme" ObjectPath="\Events\Default Work Unit\Music\TitleToForestTheme" DurationType="Infinite">
+				<Event Id="1410518140" Name="StateMusicControl" ObjectPath="\Events\Default Work Unit\Music\StateMusicControl" DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="209978658" Language="SFX">
+							<ShortName>Multo_ilaw-End_Theme_Coda_Ver2.wav</ShortName>
+							<Path>SFX\Multo_ilaw-End_Theme_Coda_Ver2_9EDFC787.wem</Path>
+						</File>
 						<File Id="302744117" Language="SFX">
 							<ShortName>Forest_Theme_mastered.wav</ShortName>
 							<Path>SFX\Forest_Theme_mastered_9EDFC787.wem</Path>
@@ -34,6 +38,18 @@
 						<File Id="480581565" Language="SFX">
 							<ShortName>Title_Theme_mastered.wav</ShortName>
 							<Path>SFX\Title_Theme_mastered_9EDFC787.wem</Path>
+						</File>
+						<File Id="795189106" Language="SFX">
+							<ShortName>Multo_ilaw-End_Theme_Transition_Ver2.wav</ShortName>
+							<Path>SFX\Multo_ilaw-End_Theme_Transition_Ver2_9EDFC787.wem</Path>
+						</File>
+						<File Id="801869199" Language="SFX">
+							<ShortName>Multo_ilaw-End_Theme_B.wav</ShortName>
+							<Path>SFX\Multo_ilaw-End_Theme_B_9EDFC787.wem</Path>
+						</File>
+						<File Id="920730275" Language="SFX">
+							<ShortName>Multo_ilaw-End_Theme_A.wav</ShortName>
+							<Path>SFX\Multo_ilaw-End_Theme_A_9EDFC787.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
@@ -47,9 +63,46 @@
 								<File Id="302744117"/>
 							</Media>
 						</SwitchContainer>
+						<SwitchContainer SwitchValue="{6C8BCDB2-0656-4DBA-9454-79CA4B66644A}">
+							<Media>
+								<File Id="801869199"/>
+								<File Id="920730275"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{AAC34FD1-C021-4DF0-96A7-F2D05E475CB6}">
+							<Media>
+								<File Id="209978658"/>
+							</Media>
+						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
 			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="209978658" Language="SFX">
+					<ShortName>Multo_ilaw-End_Theme_Coda_Ver2.wav</ShortName>
+					<Path>SFX\Multo_ilaw-End_Theme_Coda_Ver2_9EDFC787.wem</Path>
+				</File>
+				<File Id="302744117" Language="SFX">
+					<ShortName>Forest_Theme_mastered.wav</ShortName>
+					<Path>SFX\Forest_Theme_mastered_9EDFC787.wem</Path>
+				</File>
+				<File Id="480581565" Language="SFX">
+					<ShortName>Title_Theme_mastered.wav</ShortName>
+					<Path>SFX\Title_Theme_mastered_9EDFC787.wem</Path>
+				</File>
+				<File Id="795189106" Language="SFX">
+					<ShortName>Multo_ilaw-End_Theme_Transition_Ver2.wav</ShortName>
+					<Path>SFX\Multo_ilaw-End_Theme_Transition_Ver2_9EDFC787.wem</Path>
+				</File>
+				<File Id="801869199" Language="SFX">
+					<ShortName>Multo_ilaw-End_Theme_B.wav</ShortName>
+					<Path>SFX\Multo_ilaw-End_Theme_B_9EDFC787.wem</Path>
+				</File>
+				<File Id="920730275" Language="SFX">
+					<ShortName>Multo_ilaw-End_Theme_A.wav</ShortName>
+					<Path>SFX\Multo_ilaw-End_Theme_A_9EDFC787.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 			<GameParameters>
 				<GameParameter Id="1355561006" Name="Cooldown" ObjectPath="\Game Parameters\Default Work Unit\Cooldown"/>
 				<GameParameter Id="2415836739" Name="Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume"/>
@@ -60,6 +113,8 @@
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\SceneMusic\None"/>
 						<State Id="1223337640" Name="TitleTheme" ObjectPath="\States\Default Work Unit\SceneMusic\TitleTheme"/>
 						<State Id="4083970009" Name="ForestTheme" ObjectPath="\States\Default Work Unit\SceneMusic\ForestTheme"/>
+						<State Id="3493095475" Name="EndTheme" ObjectPath="\States\Default Work Unit\SceneMusic\EndTheme"/>
+						<State Id="2918411671" Name="EndCoda" ObjectPath="\States\Default Work Unit\SceneMusic\EndCoda"/>
 					</States>
 				</StateGroup>
 			</StateGroups>

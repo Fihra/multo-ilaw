@@ -4,6 +4,8 @@ State Group	ID	Name			Wwise Object Path	Notes
 State	ID	Name	State Group			Notes
 	748895195	None	SceneMusic			
 	1223337640	TitleTheme	SceneMusic			
+	2918411671	EndCoda	SceneMusic			
+	3493095475	EndTheme	SceneMusic			
 	4083970009	ForestTheme	SceneMusic			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes

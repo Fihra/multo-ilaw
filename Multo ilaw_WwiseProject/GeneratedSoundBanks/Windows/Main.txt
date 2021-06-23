@@ -1,7 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	13776098	Explosion			\Default Work Unit\SFX\Explosion	
-	1270025692	TitleToForestTheme			\Default Work Unit\Music\TitleToForestTheme	
 	1355561006	Cooldown			\Default Work Unit\SFX\Cooldown	
+	1410518140	StateMusicControl			\Default Work Unit\Music\StateMusicControl	
 	3011204530	Move			\Default Work Unit\SFX\Move	
 	3459452222	Phase			\Default Work Unit\SFX\Phase	
 
@@ -11,6 +11,8 @@ State Group	ID	Name			Wwise Object Path	Notes
 State	ID	Name	State Group			Notes
 	748895195	None	SceneMusic			
 	1223337640	TitleTheme	SceneMusic			
+	2918411671	EndCoda	SceneMusic			
+	3493095475	EndTheme	SceneMusic			
 	4083970009	ForestTheme	SceneMusic			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
@@ -38,6 +40,10 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	915662486	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Explosion\Wwise Synth One	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	209978658	Multo_ilaw-End_Theme_Coda_Ver2	D:\Fabian_Files\Unity_Files\Multo-ilaw\Multo ilaw_WwiseProject\.cache\Windows\SFX\Multo_ilaw-End_Theme_Coda_Ver2_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\End_Coda\Multo_ilaw-End_Theme_Coda_Ver2\Multo_ilaw-End_Theme_Coda_Ver2		70365
 	302744117	Forest_Theme_mastered	D:\Fabian_Files\Unity_Files\Multo-ilaw\Multo ilaw_WwiseProject\.cache\Windows\SFX\Forest_Theme_mastered_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\Forest_Theme\Forest_Theme_mastered\Forest_Theme_mastered		1399263
 	480581565	Title_Theme_mastered	D:\Fabian_Files\Unity_Files\Multo-ilaw\Multo ilaw_WwiseProject\.cache\Windows\SFX\Title_Theme_mastered_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\Title_Theme\Title_Theme_mastered\Title_Theme_mastered		226790
+	795189106	Multo_ilaw-End_Theme_Transition_Ver2	D:\Fabian_Files\Unity_Files\Multo-ilaw\Multo ilaw_WwiseProject\.cache\Windows\SFX\Multo_ilaw-End_Theme_Transition_Ver2_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\End_Transition\Multo_ilaw-End_Theme_Transition_Ver2		29791
+	801869199	Multo_ilaw-End_Theme_B	D:\Fabian_Files\Unity_Files\Multo-ilaw\Multo ilaw_WwiseProject\.cache\Windows\SFX\Multo_ilaw-End_Theme_B_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\End_Theme\Multo_ilaw-End_Theme_B\Multo_ilaw-End_Theme_B		465329
+	920730275	Multo_ilaw-End_Theme_A	D:\Fabian_Files\Unity_Files\Multo-ilaw\Multo ilaw_WwiseProject\.cache\Windows\SFX\Multo_ilaw-End_Theme_A_9EDFC787.wem		\Interactive Music Hierarchy\Default Work Unit\SceneMusic\End_Theme\Multo_ilaw-End_Theme_A\Multo_ilaw-End_Theme_A		222970
 

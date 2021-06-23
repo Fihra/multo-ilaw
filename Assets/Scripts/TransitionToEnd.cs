@@ -21,7 +21,7 @@ public class TransitionToEnd : MonoBehaviour
     void Update()
     {
         currentScore = scoreManager.score;
-        if(currentScore >= 200)
+        if(currentScore >= 15)
         {
             StartCoroutine(FadeScene());
         }

@@ -9,6 +9,7 @@
 						<State Name="TitleTheme" ID="{A6BC4227-5A54-43DF-9DFB-2D51CB5056CC}"/>
 						<State Name="ForestTheme" ID="{9012D273-84CD-4619-8095-3F26903FC18F}"/>
 						<State Name="EndTheme" ID="{6C8BCDB2-0656-4DBA-9454-79CA4B66644A}"/>
+						<State Name="EndCoda" ID="{AAC34FD1-C021-4DF0-96A7-F2D05E475CB6}"/>
 					</ChildrenList>
 					<TransitionList>
 						<Transition>
@@ -20,6 +21,18 @@
 						<Transition>
 							<StartState Name="ForestTheme" ID="{9012D273-84CD-4619-8095-3F26903FC18F}"/>
 							<EndState Name="TitleTheme" ID="{A6BC4227-5A54-43DF-9DFB-2D51CB5056CC}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="ForestTheme" ID="{9012D273-84CD-4619-8095-3F26903FC18F}"/>
+							<EndState Name="EndTheme" ID="{6C8BCDB2-0656-4DBA-9454-79CA4B66644A}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="EndTheme" ID="{6C8BCDB2-0656-4DBA-9454-79CA4B66644A}"/>
+							<EndState Name="EndCoda" ID="{AAC34FD1-C021-4DF0-96A7-F2D05E475CB6}"/>
 							<Time>1</Time>
 							<IsShared>false</IsShared>
 						</Transition>

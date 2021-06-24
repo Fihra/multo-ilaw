@@ -27,7 +27,6 @@ public class MusicManager : MonoBehaviour
                 musicStates[1].SetValue();
                 break;
             case "EndScene":
-                Debug.Log("Play End Theme");
                 musicStates[2].SetValue();
                 break;
             case "TitleScene":

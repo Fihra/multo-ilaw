@@ -11,7 +11,9 @@ public class PhaseSFX : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerTrigger = gameObject.GetComponent<BoxCollider2D>();    
+        playerTrigger = gameObject.GetComponent<BoxCollider2D>();
+        AkSoundEngine.SetRTPCValue("Volume", 0f, gameObject);
+        phaseID = AkSoundEngine.PostEvent("Phase", gameObject);
     }
 
     // Update is called once per frame
@@ -24,7 +26,7 @@ public class PhaseSFX : MonoBehaviour
 
         if(!playerTrigger.isTrigger)
         {
-            phaseID = AkSoundEngine.PostEvent("Phase", gameObject);
+            
             AkSoundEngine.SetRTPCValue("Volume", 50.0f, gameObject);
         }
 

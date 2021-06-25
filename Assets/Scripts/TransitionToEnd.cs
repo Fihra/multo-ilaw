@@ -21,7 +21,7 @@ public class TransitionToEnd : MonoBehaviour
     void Update()
     {
         currentScore = scoreManager.score;
-        if(currentScore >= 10)
+        if(currentScore >= 200)
         {
             StartCoroutine(FadeScene());
         }
@@ -30,7 +30,7 @@ public class TransitionToEnd : MonoBehaviour
     IEnumerator FadeScene()
     {
         transitionAnim.SetTrigger("end");
-        yield return new WaitForSeconds(1.0f);
+        yield return new WaitForSeconds(1.3f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 
     }

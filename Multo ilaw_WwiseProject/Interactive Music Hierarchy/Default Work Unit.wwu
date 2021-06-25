@@ -511,13 +511,9 @@
 											</PropertyList>
 											<SegmentRef Name="Multo_ilaw-End_Theme_A" ID="{3CEAD259-3AD9-4615-A599-460037C822FF}"/>
 										</MusicPlaylistItem>
-										<MusicPlaylistItem Name="" ID="{165A6B0D-9002-4EFA-8611-794D0B04F1E0}" ShortID="36975375">
-											<PropertyList>
-												<Property Name="LoopCount" Type="int16" Value="0"/>
-											</PropertyList>
-										</MusicPlaylistItem>
 										<MusicPlaylistItem Name="" ID="{C6ED569F-C95D-4110-A863-0BE9FCDC7740}" ShortID="521280769">
 											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
 											<SegmentRef Name="Multo_ilaw-End_Theme_B" ID="{BEE27539-C141-41B3-8635-7AF2E28349C1}"/>
@@ -769,7 +765,7 @@
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
 										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
 										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
 									</PropertyList>
 									<ReferenceList>
@@ -804,6 +800,9 @@
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
 										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
 										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="PlaySourcePostExit" Type="bool" Value="False"/>
+										<Property Name="PlayTransitionPostExit" Type="bool" Value="False"/>
+										<Property Name="PlayTransitionPreEntry" Type="bool" Value="False"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
 										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
 									</PropertyList>

@@ -909,11 +909,6 @@ MonoBehaviour:
     groupIdInternal: 0
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: ec83ea357b4bf7241a0f767ff4183200, type: 2}
-  - idInternal: 0
-    valueGuidInternal: 
-    groupIdInternal: 0
-    groupGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 15d0bce6ee7e1fe4cbad8fbf7ff7c7cc, type: 2}
 --- !u!4 &863148934
 Transform:
   m_ObjectHideFlags: 0
@@ -1633,7 +1628,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 22e0243ba04e69142b81b1b4a348293b, type: 3}
-    m_FontSize: 58
+    m_FontSize: 56
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 10

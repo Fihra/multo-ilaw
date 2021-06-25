@@ -23,6 +23,11 @@
 						<MusicPlaylistContainer Name="Forest_Theme" ID="{3A416D22-C8BA-4171-86CB-C00BD3A4D9BD}" ShortID="866934615">
 							<PropertyList>
 								<Property Name="Tempo" Type="Real64" Value="170"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -158,7 +163,7 @@
 								<Property Name="Tempo" Type="Real64" Value="170"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>-8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -295,6 +300,11 @@
 							<PropertyList>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 								<Property Name="Tempo" Type="Real64" Value="150"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -520,6 +530,11 @@
 							<PropertyList>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 								<Property Name="Tempo" Type="Real64" Value="150"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -609,6 +624,11 @@
 							<PropertyList>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 								<Property Name="Tempo" Type="Real64" Value="150"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -744,38 +764,6 @@
 								<MusicTransition Name="Transition" ID="{9DB1096A-A3A1-4ABB-BBE3-5A974C6D608F}">
 									<TransitionInfo/>
 								</MusicTransition>
-								<MusicTransition Name="Transition" ID="{B1630DF1-64EC-4AB8-A38B-A17916701B6B}">
-									<PropertyList>
-										<Property Name="DestinationContextType" Type="int16" Value="2"/>
-										<Property Name="EnableDestinationFadeIn" Type="bool" Value="True"/>
-										<Property Name="EnableSourceFadeOut" Type="bool" Value="True"/>
-										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="DestinationContextObject">
-											<ObjectRef Name="Title_Theme" ID="{240754D7-4E03-45D4-838A-BE532568D907}" WorkUnitID="{A64872C4-304C-40EE-996B-B4B87A2F1F99}"/>
-										</Reference>
-									</ReferenceList>
-									<TransitionInfo>
-										<SourceFadeOut>
-											<MusicFade Name="Source Fade-out" ID="{E5D94D83-439B-4D71-A464-FD61366A1A44}">
-												<PropertyList>
-													<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
-													<Property Name="FadeTime" Type="Real64" Value="1"/>
-													<Property Name="FadeType" Type="int16" Value="1"/>
-												</PropertyList>
-											</MusicFade>
-										</SourceFadeOut>
-										<DestinationFadeIn>
-											<MusicFade Name="Destination Fade-in" ID="{2CCE0CE1-D683-40CC-ABBF-2BF6C497E554}">
-												<PropertyList>
-													<Property Name="FadeOffset" Type="Real64" Value="-0.5"/>
-													<Property Name="FadeTime" Type="Real64" Value="1"/>
-												</PropertyList>
-											</MusicFade>
-										</DestinationFadeIn>
-									</TransitionInfo>
-								</MusicTransition>
 								<MusicTransition Name="Transition" ID="{894F9E04-9BD3-49F6-889C-74877E7CB4AF}">
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
@@ -796,7 +784,6 @@
 										<SourceFadeOut>
 											<MusicFade Name="Source Fade-out" ID="{11833EE9-5753-4993-8CAA-656EE02FD0E6}">
 												<PropertyList>
-													<Property Name="FadeOffset" Type="Real64" Value="0.5"/>
 													<Property Name="FadeTime" Type="Real64" Value="1"/>
 													<Property Name="FadeType" Type="int16" Value="1"/>
 												</PropertyList>
@@ -845,16 +832,19 @@
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
 										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="DestinationContextObject">
-											<ObjectRef Name="End_Coda" ID="{2F990E81-4DC3-4E89-BD65-F782E4538C45}" WorkUnitID="{A64872C4-304C-40EE-996B-B4B87A2F1F99}"/>
+											<ObjectRef Name="Title_Theme" ID="{240754D7-4E03-45D4-838A-BE532568D907}" WorkUnitID="{A64872C4-304C-40EE-996B-B4B87A2F1F99}"/>
 										</Reference>
 										<Reference Name="SourceContextObject">
 											<ObjectRef Name="End_Theme" ID="{F5A3907A-6472-489F-8403-486701EB674B}" WorkUnitID="{A64872C4-304C-40EE-996B-B4B87A2F1F99}"/>
 										</Reference>
 									</ReferenceList>
-									<TransitionInfo/>
+									<TransitionInfo>
+										<TransitionObjectRef Name="Multo_ilaw-End_Theme_Coda_Ver2" ID="{98F8FCFB-3FC2-439D-A464-BF1D6C936135}" WorkUnitID="{A64872C4-304C-40EE-996B-B4B87A2F1F99}"/>
+									</TransitionInfo>
 								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>

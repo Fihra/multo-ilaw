@@ -10,6 +10,7 @@
 						<ObjectRef Name="SFX" ID="{4D014117-B5AB-478F-9322-62EA3F479DEB}" WorkUnitID="{4D014117-B5AB-478F-9322-62EA3F479DEB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Phase" ID="{998AE55D-1E85-47C8-AB92-A533C708217E}" WorkUnitID="{51FEC60C-E518-4A0A-9F19-541E06A8E8ED}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SceneMusic" ID="{C2AEA4E7-7A75-486D-9795-6F1E6E48F1E8}" WorkUnitID="{A64872C4-304C-40EE-996B-B4B87A2F1F99}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Phase" ID="{1FA52E8A-D6BE-492A-B2B3-73C0DA679BF2}" WorkUnitID="{4D014117-B5AB-478F-9322-62EA3F479DEB}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="StateMusicControl" ID="{DAE74AE0-29D0-4AF2-91D7-DA2F7E142638}" WorkUnitID="{38A2C71C-A1C1-4BB4-8A79-051C44AB2829}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Music" ID="{38A2C71C-A1C1-4BB4-8A79-051C44AB2829}" WorkUnitID="{38A2C71C-A1C1-4BB4-8A79-051C44AB2829}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

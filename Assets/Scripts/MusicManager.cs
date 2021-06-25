@@ -17,9 +17,10 @@ public class MusicManager : MonoBehaviour
         currentScene = SceneManager.GetActiveScene();
         
         
-        musicStates[0].SetValue();
+        //musicStates[0].SetValue();
         if(!finishedGame)
-        { 
+        {
+            musicStates[0].SetValue();
             musicEvent.Post(gameObject);
         }
         finishedGame = false;
@@ -29,6 +30,7 @@ public class MusicManager : MonoBehaviour
     private void Update()
     {
         currentScene = SceneManager.GetActiveScene();
+
         switch (currentScene.name)
         {
             case "GameScene":
@@ -36,16 +38,19 @@ public class MusicManager : MonoBehaviour
                 break;
             case "EndScene":
                 musicStates[2].SetValue();
+                if (finishedGame)
+                {
+                    StartCoroutine(ToCoda());
+                }
                 break;
             default:
                 return;
         }
-        //if (currentScene.name == "GameScene")
-        //{
-        //    musicStates[1].SetValue();
+    }
 
-        //}
-
-        //Debug.Log(currentScene.name);
+    IEnumerator ToCoda()
+    {
+        musicStates[0].SetValue();
+        yield return new WaitForSeconds(3.5f);
     }
 }

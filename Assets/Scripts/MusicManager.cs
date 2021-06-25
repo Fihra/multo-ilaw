@@ -7,14 +7,22 @@ public class MusicManager : MonoBehaviour
 {
     Scene currentScene;
 
+    public static bool finishedGame = false;
+
     public AK.Wwise.Event musicEvent;
     public List<AK.Wwise.State> musicStates = new List<AK.Wwise.State>();
 
     private void Awake()
     {
         currentScene = SceneManager.GetActiveScene();
+        
+        
         musicStates[0].SetValue();
-        musicEvent.Post(gameObject);
+        if(!finishedGame)
+        { 
+            musicEvent.Post(gameObject);
+        }
+        finishedGame = false;
         DontDestroyOnLoad(gameObject);
     }
 
@@ -29,21 +37,12 @@ public class MusicManager : MonoBehaviour
             case "EndScene":
                 musicStates[2].SetValue();
                 break;
-            case "TitleScene":
-                musicStates[0].SetValue();
-                break;
             default:
                 return;
         }
         //if (currentScene.name == "GameScene")
         //{
         //    musicStates[1].SetValue();
-
-        //}
-
-        //else if(currentScene.name == "EndScene")
-        //{
-        //    musicStates[2].SetValue();
 
         //}
 

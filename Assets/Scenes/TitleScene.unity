@@ -872,7 +872,7 @@ GameObject:
   - component: {fileID: 863148933}
   m_Layer: 0
   m_Name: MusicManager
-  m_TagString: Untagged
+  m_TagString: MusicManager
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1297,8 +1297,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -22.099976, y: 4.5}
-  m_SizeDelta: {x: -566.35925, y: -377.6762}
+  m_AnchoredPosition: {x: -35, y: -234.43}
+  m_SizeDelta: {x: -635.84644, y: -468.8628}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1876890458
 GameObject:

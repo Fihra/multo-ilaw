@@ -8,7 +8,6 @@ public class MusicManager : MonoBehaviour
     Scene currentScene;
 
     public static bool finishedGame = false;
-
     public AK.Wwise.Event musicEvent;
     public List<AK.Wwise.State> musicStates = new List<AK.Wwise.State>();
 
@@ -16,8 +15,6 @@ public class MusicManager : MonoBehaviour
     {
         currentScene = SceneManager.GetActiveScene();
         
-        
-        //musicStates[0].SetValue();
         if(!finishedGame)
         {
             musicStates[0].SetValue();
